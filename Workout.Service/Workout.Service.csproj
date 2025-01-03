@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Workout.Domain.Core\Workout.Domain.Core.csproj" />
+    <ProjectReference Include="..\Workout.Domain\Workout.Domain.csproj" />
+    <ProjectReference Include="..\Workout.Infra.CrossCutting.Auth\Workout.Infra.CrossCutting.Security.csproj" />
+    <ProjectReference Include="..\Workout.Infra.CrossCutting.Exceptions\Workout.Infra.CrossCutting.Exceptions.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="6.0.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Workout.Domain.Core\Workout.Domain.Core.csproj" />
+    <ProjectReference Include="..\Workout.Domain\Workout.Domain.csproj" />
+    <ProjectReference Include="..\Workout.Infra.CrossCutting.Excel\Workout.Infra.CrossCutting.Excel.csproj" />
+  </ItemGroup>
+
+</Project>

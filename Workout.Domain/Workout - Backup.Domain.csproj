@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\Workout.Domain.Core\Workout.Domain.Core.csproj" />
+		<ProjectReference Include="..\Workout.Infra.CrossCutting.Attributes\Workout.Infra.CrossCutting.Attributes.csproj" />
+		<ProjectReference Include="..\Workout.Infra.CrossCutting.Extensions\Workout.Infra.CrossCutting.Extensions.csproj" />
+		<ProjectReference Include="..\Workout.Infra.Data.Services\Workout.Infra.Data.Services.csproj" />
+	</ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Entities\Customer\NewFolder\" />
+  </ItemGroup>
+
+</Project>
